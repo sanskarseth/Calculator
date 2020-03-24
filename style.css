@@ -1,0 +1,47 @@
+body
+{
+    background-image: radial-gradient(circle, red, yellow, green);
+}
+
+#mycalc
+{
+    text-align : center;
+    width : 360px;
+    margin : 150px auto;
+}
+input[type='button'],button{
+    width : 86px;
+    height : 50px;
+    margin: 2px 0;
+
+}
+.results input 
+{
+    width: 176px;
+    height: 50px;
+}
+#equal
+{
+    background-color : rgba(5, 106, 221, 0.726);
+    color : white;
+    border : 1px solid rgba(5, 106, 221, 0.726);
+}
+#clear
+{
+    background-color : rgba(119, 0, 255, 0.616);
+    color : white;
+    border : 1px solid rgba(119, 0, 255, 0.658);
+}
+#plus ,#minus , #multiply , #divide , #percent
+{
+    background-color : rgba(17, 0, 255, 0.664);
+    color : white;
+    border : 1px solid rgba(17, 0, 255, 0.664);
+    font-size : 16px;
+}
+input[type='text']
+{
+    width : 100%;
+    height : 50px;
+    background-color: #999;
+}
